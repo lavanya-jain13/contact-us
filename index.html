@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-500 font-sans">
+
+  <div class="max-w-5xl mx-auto my-20 bg-gradient-to-r from-indigo-900 to-indigo-800 text-white rounded-lg shadow-2xl p-10">
+    <nav class="flex justify-center space-x-8 text-lg mb-8">
+      <a href="#" class="hover:text-pink-400">HOME</a>
+      <a href="#" class="hover:text-pink-400">BLOG</a>
+      <a href="#" class="hover:text-pink-400">ABOUT</a>
+      <a href="#" class="text-pink-400 font-bold">CONTACT</a>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-pink-400 font-bold text-xl mb-2">Just say Hello!</h2>
+        <p class="mb-6 text-gray-300">We’d love to hear from you. Please fill out the form below.</p>
+        <form id="contactForm" class="space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" id="firstName" placeholder="First Name" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400">
+            <input type="text" id="lastName" placeholder="Last Name" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400">
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="email" id="email" placeholder="Email" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400">
+            <input type="tel" id="phone" placeholder="Phone" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400">
+          </div>
+          <input type="text" id="subject" placeholder="Subject" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400">
+          <textarea id="message" placeholder="Message" rows="4" class="w-full p-3 rounded bg-indigo-700 text-white focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+          <button type="submit" class="bg-pink-400 text-white px-6 py-2 rounded hover:bg-pink-500 transition">Submit</button>
+        </form>
+      </div>
+
+      <div>
+        <h2 class="text-pink-400 font-bold text-xl mb-4">Contact Information</h2>
+        <p class="mb-2">77 MG Road<br>Indore, MP, 452001<br>India</p>
+        <p class="mb-2">Call Us: +91 98765 43210</p>
+        <p class="mb-6">We are open from Monday - Friday<br>08.00 am - 05.00 pm</p>
+
+        <h3 class="text-pink-400 font-bold mb-2">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-pink-400">Facebook</a>
+          <a href="#" class="hover:text-pink-400">Instagram</a>
+          <a href="#" class="hover:text-pink-400">Vimeo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
